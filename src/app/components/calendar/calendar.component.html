@@ -1,0 +1,30 @@
+
+
+<div *ngIf="indicator" class="indicatorDiv">
+
+ <div>
+   <h4>{{h4}}</h4>
+   <img src="/assets/loading.gif">
+ </div>
+</div>
+
+<div *ngIf="!indicator">
+  <div class="calendarCont">
+    <div>
+      <h3 *ngIf="calendar">Calendar</h3>
+    </div>
+
+    <table *ngIf="calendar">
+      <tr>
+        <th>Date</th>
+        <th>Fighters</th>
+        <th>Event</th>
+      </tr>
+      <tr *ngFor="let match of calendar">
+        <td *ngIf="!isEmpty(match)">{{match.date}}</td>
+        <td *ngIf="!isEmpty(match)"><span>{{match.fighter}} vs {{match.opponent}}</span></td>
+        <td *ngIf="!isEmpty(match)">{{match.event}}</td>
+      </tr>
+    </table>
+  </div>
+</div>

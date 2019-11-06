@@ -1,0 +1,19 @@
+
+.inputDiv{
+  display: flex;
+  justify-content: center;
+}
+.inputText{
+  width: 300px;
+  height: 30px;
+  font-size: medium;
+}
+div{
+  margin-bottom: 20px;
+}
+
+
+.searchButton{
+  border-left: 0;
+  font-size: medium;
+}

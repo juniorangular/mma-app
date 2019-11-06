@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+button{
+  background-color: white;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 1px gray;
+
+}
+a{
+text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+span{
+  margin: 5px;
+}
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: rgba(219,225,241,0.58);}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: lightsteelblue;
+  color: white;
+}
+
+.indicatorDiv {
+  display: flex;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 850px) {
+
+  .altA{
+    padding: 0;
+    margin: 0;
+  }
+
+}

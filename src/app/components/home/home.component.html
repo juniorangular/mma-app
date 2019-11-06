@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="card" *ngFor="let fighter of followedFighters">
+        <ul>
+          <li><a href="{{fighter.url}}">
+            <div class="imgCont" >
+              <img  src="{{getImage(fighter)}}" >
+            </div>
+
+            {{fighter.name}}
+          </a></li>
+
+          <li>{{fighter.weight}}</li>
+          <li>{{fighter.record}}</li>
+          <li>{{fighter.country}}</li>
+          <li><button (click)="unfollow(fighter)">unfollow</button></li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.card{
+  height: 300px;
+  width: 180px;
+  border: 1px solid lightgray;
+  overflow:auto;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px gray;
+  margin: 5px;
+}
+img{
+  width: 100%;
+}
+.imgCont{
+
+  margin: 0;
+  margin-bottom: 5px;
+  border-bottom: 1px solid lightgray;
+  height: 180px;
+  width: 180px;
+  overflow: hidden;
+}

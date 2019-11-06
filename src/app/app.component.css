@@ -1,0 +1,18 @@
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.calendar{
+  flex: 1;
+}
+.outlet{
+  flex: 1;
+}
+
+@media only screen and (max-width: 850px) {
+  .container{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

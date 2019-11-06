@@ -1,0 +1,16 @@
+
+<div class="inputDiv">
+    <input #name class="inputText" placeholder="Enter a fighter's name" type="text">
+    <button class="searchButton" type="button" (click)="searchFighter(name)">Search</button>
+</div>
+
+
+<div *ngIf="indicator" class="indicatorDiv">
+  <div>
+    <h4>Fetching fighters...</h4>
+    <img src="/assets/loading.gif">
+  </div>
+</div>
+
+
+<div class="tableCont"></div>
