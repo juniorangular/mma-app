@@ -1,32 +1,16 @@
-<<<<<<< HEAD
-# mma-app
-simple app that scrapes www.tapology.com and shows you upcoming matches of your favorite fighters
-=======
-# MmaApp
+simple app that scrapes www.tapology.com and shows you upcoming matches of your favorite fighters  
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
 
-## Development server
+### Tech/framework used  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Built with
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
->>>>>>> initial commit
+* Angular 8  
+* Node.js  
+* MySQL
+   
+   
+Screenshots:  
+![Screenshot (5)](https://user-images.githubusercontent.com/49139093/68375523-4af38300-0147-11ea-9c26-5e4219d3e96e.png)
+![Screenshot (6)](https://user-images.githubusercontent.com/49139093/68375562-58107200-0147-11ea-8c9f-42a964596ad9.png)
